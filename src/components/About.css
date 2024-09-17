@@ -1,0 +1,69 @@
+/* Ensure this CSS file is imported in your About.js file */
+.about-section {
+    position: relative;
+    overflow: hidden; /* Hide any overflow from the blurred image and overlay */
+    color: white; /* Ensure text color contrasts with background */
+}
+
+/* Container for the background image and dark overlay */
+.background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Ensure it sits behind the content */
+}
+
+/* Background image with blur effect */
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../pics/background/company.jpg'); /* Ensure the image path is correct */
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px); /* Apply blur effect */
+}
+
+/* Dark overlay */
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for darkening effect */
+}
+
+/* Optional: If you need to adjust the container's appearance */
+.about-section .container {
+    position: relative;
+    z-index: 1; /* Ensure the content floats above the background image and overlay */
+}
+
+/* Optional: Add styles for the Card component */
+.about-section .card {
+    background-color: transparent; /* Ensure card background is transparent */
+    border: none;
+    box-shadow: none;
+}
+
+/* Animation classes */
+.hidden {
+    opacity: 0;
+    transform: translateY(20px); /* Initial position for animation */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.fade-in {
+    opacity: 1;
+    transform: translateY(0); /* End position for animation */
+}
+
+.slide-in {
+    opacity: 1;
+    transform: translateX(0); /* End position for animation */
+}

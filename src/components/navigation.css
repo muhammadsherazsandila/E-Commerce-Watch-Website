@@ -1,0 +1,124 @@
+body, html {
+  overflow: auto;
+}
+  /* navigation.css */
+/* navigation.css */
+
+.navbar {
+  transition: top 0.3s;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-hidden {
+  top: -80px;
+}
+
+.navbar-visible {
+  top: 0;
+}
+
+/* Additional styling for the navbar */
+.bg-white {
+  background-color: #fff;
+}
+
+.text-dark {
+  color: #000;
+}
+
+.shadow-lg {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo and company name styling */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo {
+  height: 50px; /* Adjust as needed */
+  margin-right: 10px; /* Space between logo and text */
+}
+
+.company-name {
+  font-size: 24px; /* Adjust as needed */
+  font-weight: bold;
+  color: #000; /* Adjust as needed */
+}
+
+
+/* ContactForm.css */
+.contact-form-container {
+  position: relative; /* Required to position the form and background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden; /* Prevents scrollbars from showing */
+  padding: 20px;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../pics/background/company_2.png') no-repeat center center/cover;
+  filter: blur(8px); /* Apply blur effect */
+  z-index: -1; /* Ensures the background is behind the form */
+  opacity: 0.7; /* Optional: Adjust opacity to make the blur effect softer */
+}
+
+.contact-form {
+  background: rgba(255, 255, 255, 0.85); /* Semi-transparent white background */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1; /* Keeps the form on top of the background */
+}
+
+.contact-form h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-form .form-control {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-form .btn-primary {
+  background-color: #6a11cb;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form .btn-primary:hover {
+  background-color: #2575fc;
+}
+
+/* #Footer */
+.footer {
+  width: 100%;
+  background-color: #343a40; /* Bootstrap's 'bg-dark' color */
+}
+
+/* navigation.css */
+.nav-link {
+  text-decoration: none; /* Removes underline */
+}
+/* navigation.css */
+.hover-black{
+  color: rgb(0 0 0 / 65%);
+}
+.hover-black:hover {
+  color: black; /* Changes text color to black on hover */
+}

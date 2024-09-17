@@ -1,38 +1,55 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+/* Custom Modal Styles */
+.custom-modal .modal-header-custom {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+.custom-modal .modal-body-custom {
+  background-color: #2d2d2d;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.custom-modal .btn-cancel {
+  border-color: #ff6b6b;
+  color: #ff6b6b;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.custom-modal .btn-cancel:hover {
+  background-color: #ff6b6b;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.custom-modal .btn-add-to-cart {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  border: none;
+  color: white;
 }
 
-@keyframes App-logo-spin {
+.custom-modal .btn-add-to-cart:hover {
+  background: linear-gradient(135deg, #feb47b, #ff7e5f);
+  color: white;
+}
+
+/* Add a fade-in animation for the modal */
+.custom-modal .fade {
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
   from {
-    transform: rotate(0deg);
+      opacity: 0;
   }
   to {
-    transform: rotate(360deg);
+      opacity: 1;
   }
+}
+.list-group{
+  height: 200px;
+  overflow-y: auto;
 }
