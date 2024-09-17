@@ -4,7 +4,7 @@ import { UseIntersectionObserver } from './hooks/UseIntersectionObserver';
 import smart_watch_1 from '../pics/digital_watches/classic smartWatch.jpg';
 import smart_watch_2 from '../pics/digital_watches/digital sport watch.jpg';
 import smart_watch_3 from '../pics/digital_watches/dual core call digitalWatch.jpg';
-import smart_watch_4 from '../pics/smart_watches/smart_watch_ (10).webp';
+import smart_watch_4 from '../pics/smart_watches/smart_watch_ (10).jpg';
 import smart_watch_5 from '../pics/digital_watches/full hd digitalWatch.jpg';
 import smart_watch_6 from '../pics/digital_watches/glory digitalWatch.jpg';
 import smart_watch_7 from '../pics/digital_watches/golden digitalWatch.jpg';

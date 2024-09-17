@@ -2,7 +2,7 @@ import React, { useEffect, useState, useCallback } from 'react';
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 import { FaShoppingCart, FaPhoneAlt } from 'react-icons/fa';
 import { Link } from 'react-scroll'; // Import Link from react-scroll
-import logo from '../pics/smart_watches/smart_watch_7.webp';
+import logo from '../pics/smart_watches/smart_watch_7.jpg';
 import './navigation.css';
 
 export default function Navigation({ onCartClick }) {
