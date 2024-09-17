@@ -75,6 +75,8 @@ function App() {
     handleCloseCheckoutModal();
   };
 
+
+
   return (
     <div>
       <Navigation onCartClick={handleShowCartModal} />
