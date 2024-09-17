@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Card, Button, Modal } from 'react-bootstrap';
 import { UseIntersectionObserver } from './hooks/UseIntersectionObserver';
-import smart_watch_1 from '../pics/smart_watches/smart_watch_1.webp';
-import smart_watch_2 from '../pics/smart_watches/smart_watch_2.webp';
-import smart_watch_3 from '../pics/smart_watches/smart_watch_3.webp';
-import smart_watch_4 from '../pics/smart_watches/smart_watch_4.webp';
-import smart_watch_5 from '../pics/smart_watches/smart_watch_5.webp';
-import smart_watch_6 from '../pics/smart_watches/smart_watch_6.webp';
-import smart_watch_7 from '../pics/smart_watches/smart_watch_7.webp';
-import smart_watch_8 from '../pics/smart_watches/smart_watch_8.webp';
+import smart_watch_1 from '../pics/smart_watches/smart_watch_1.jpg';
+import smart_watch_2 from '../pics/smart_watches/smart_watch_2.jpg';
+import smart_watch_3 from '../pics/smart_watches/smart_watch_3.jpg';
+import smart_watch_4 from '../pics/smart_watches/smart_watch_4.jpg';
+import smart_watch_5 from '../pics/smart_watches/smart_watch_5.jpg';
+import smart_watch_6 from '../pics/smart_watches/smart_watch_6.jpg';
+import smart_watch_7 from '../pics/smart_watches/smart_watch_7.jpg';
+import smart_watch_8 from '../pics/smart_watches/smart_watch_8.jpg';
 
 export default function SmartWatches({ onAddToCart }) {
     const { ref, inView } = UseIntersectionObserver({ triggerOnce: true });

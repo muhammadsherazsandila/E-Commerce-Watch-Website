@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import slider_1 from '../pics/slider_iamges/slider_image_1.webp';
-import slider_2 from '../pics/slider_iamges/slider_image_2.webp';
+import slider_1 from '../pics/slider_iamges/slider_image_1.jpg';
+import slider_2 from '../pics/slider_iamges/slider_image_2.jpg';
 import slider_3 from '../pics/slider_iamges/slider_image_3.jpg';
 import slider_4 from '../pics/slider_iamges/slider_image_4.jpg';
 import slider_5 from '../pics/slider_iamges/slider_image_5.jpg';
